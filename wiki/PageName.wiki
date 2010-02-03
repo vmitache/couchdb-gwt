@@ -32,7 +32,7 @@
 }}}
   Hosted mode :
 
-Eclise run configurations / Arguments :
+Eclipse run configurations / arguments :
 
 {{{ -noserver -startupUrl http://<host>:<port>/<couchdb_name>/_design/<module_name>/<module_name>.html}}}
 
