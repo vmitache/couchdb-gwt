@@ -7,11 +7,13 @@
 
 = Details =
 
-  Eclipse users :
+  ==Eclipse users :==
    Required libs : lib directory in couchdb-test
-   
+
 
    {{{ In public folder - <Module>.html and <Module>.css (see couchdb-test) }}}
+
+
    {{{ In <Module>.gwt.xml }}}
 {{{
     <inherits name='com.os.couchdb.Couchdb'/>
@@ -36,4 +38,4 @@ Eclipse run configurations / arguments :
 
 {{{ -noserver -startupUrl http://<host>:<port>/<couchdb_name>/_design/<module_name>/<module_name>.html}}}
 
-*CouchDBLinker and module linker parameters requiring GWT 2.0*
+*CouchDBLinker and module linker parameters - GWT 2.0*
