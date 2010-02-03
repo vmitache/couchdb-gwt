@@ -35,3 +35,5 @@
 Eclise run configurations / Arguments :
 
 {{{ -noserver -startupUrl http://<host>:<port>/<couchdb_name>/_design/<module_name>/<module_name>.html}}}
+
+*CouchDBLinker and module linker parameters requiring GWT 2.0*
