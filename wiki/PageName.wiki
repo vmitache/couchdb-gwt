@@ -11,8 +11,8 @@
    Required libs : lib directory in couchdb-test
    
 
-   In public folder - <Module>.html and <Module>.css (see couchdb-test)
-   In <Module>.gwt.xml
+   {{{ In public folder - <Module>.html and <Module>.css (see couchdb-test) }}}
+   {{{ In <Module>.gwt.xml }}}
 {{{
     <inherits name='com.os.couchdb.Couchdb'/>
   <define-configuration-property name="couchdb_host" is_multi_valued="false"/>
@@ -30,3 +30,8 @@
   <add-linker name="couchDBLinker" />
 
 }}}
+  Hosted mode :
+
+Eclise run configurations / Arguments :
+
+{{{ -noserver -startupUrl http://<host>:<port>/<couchdb_name>/_design/<module_name>/<module_name>.html}}}
